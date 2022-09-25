@@ -389,6 +389,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.MagicLeap.ref.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/HistoryPrefabs/HistoryPoint.cs"
+"Assets/HistoryPrefabs/Instantiate.cs"
 -langversion:9.0
 
 /deterministic
