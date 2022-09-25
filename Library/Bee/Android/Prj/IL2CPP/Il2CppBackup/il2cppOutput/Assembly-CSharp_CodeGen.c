@@ -56,7 +56,15 @@ extern void Instantiate_Start_mF77FFBF95C90733906B2D6DC9F8F771F61B21F15 (void);
 extern void Instantiate_Update_m29691F1DF108C9E1F6F1163887B05BAA1DD3EE89 (void);
 // 0x00000016 System.Void Instantiate::.ctor()
 extern void Instantiate__ctor_m123F39FBC29E6FB5FC839AEA2C5160F32CE754E8 (void);
-static Il2CppMethodPointer s_methodPointers[22] = 
+// 0x00000017 System.Void PlaceObject::Start()
+extern void PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951 (void);
+// 0x00000018 System.Void PlaceObject::Update()
+extern void PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358 (void);
+// 0x00000019 System.Void PlaceObject::SpawnablePrefab(UnityEngine.Vector3)
+extern void PlaceObject_SpawnablePrefab_mB714FCB8DDBC09536EB1E2D983CFFB1CBEB53F75 (void);
+// 0x0000001A System.Void PlaceObject::.ctor()
+extern void PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510 (void);
+static Il2CppMethodPointer s_methodPointers[26] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -80,37 +88,45 @@ static Il2CppMethodPointer s_methodPointers[22] =
 	Instantiate_Start_mF77FFBF95C90733906B2D6DC9F8F771F61B21F15,
 	Instantiate_Update_m29691F1DF108C9E1F6F1163887B05BAA1DD3EE89,
 	Instantiate__ctor_m123F39FBC29E6FB5FC839AEA2C5160F32CE754E8,
+	PlaceObject_Start_mE0F46F0353CD0065F35D9EEF88BF361EE12DD951,
+	PlaceObject_Update_mE52445879BBA344DEBFEDBF6CF23FEE92A059358,
+	PlaceObject_SpawnablePrefab_mB714FCB8DDBC09536EB1E2D983CFFB1CBEB53F75,
+	PlaceObject__ctor_m73094142430E3C4071B1660682AB5867522D1510,
 };
-static const int32_t s_InvokerIndices[22] = 
+static const int32_t s_InvokerIndices[26] = 
 {
-	5332,
-	4325,
-	5438,
-	5438,
-	5438,
-	5438,
-	8536,
-	5374,
-	4359,
-	5438,
-	5438,
-	5438,
-	4211,
-	4325,
-	5438,
-	8536,
-	4325,
-	5438,
-	5438,
-	5438,
-	5438,
-	5438,
+	2001,
+	1750,
+	2065,
+	2065,
+	2065,
+	2065,
+	4194,
+	2025,
+	1767,
+	2065,
+	2065,
+	2065,
+	1693,
+	1750,
+	2065,
+	4194,
+	1750,
+	2065,
+	2065,
+	2065,
+	2065,
+	2065,
+	2065,
+	2065,
+	1793,
+	2065,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	22,
+	26,
 	s_methodPointers,
 	0,
 	NULL,

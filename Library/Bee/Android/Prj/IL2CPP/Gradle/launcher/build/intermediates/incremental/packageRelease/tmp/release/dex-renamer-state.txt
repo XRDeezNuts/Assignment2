@@ -1,4 +1,4 @@
-#Sun Sep 25 12:54:03 CEST 2022
-base.0=C\:\\Repositories\\University\\XRD\\First3D\\Assigment 2 - History of Electricity\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Sun Sep 25 16:09:13 CEST 2022
+base.0=C\:\\Users\\micha\\XRDevelopment\\Assignment2\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
